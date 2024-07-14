@@ -28,4 +28,4 @@ public class Q5 {
 
 // Output :
 //	 Error Details : java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 5
-//	 Error Details : java.lang.StringIndexOutOfBoundsException: Index 10 out of bounds for length 5
+//	 Error Details : java.lang.StringIndexOutOfBoundsException: Index 10 out of bounds for length 9
