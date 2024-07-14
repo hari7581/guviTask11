@@ -1,0 +1,30 @@
+There Four access modifiers are:
+
+ * Public 
+ * Private
+ * Default
+ * Protected
+
+Public :
+Class - A public class is accessible from any other class in any package.
+Method - A public method can be called from any other class in any package.
+Variable -  A public variable can be accessed from any other class in any package.
+Significance - The public modifier allows the widest access level.
+
+Protected :
+Class - Classes cannot be declared as protected. Only inner classes can use the protected modifier.
+Method - A protected method can be called within its own package and by subclasses in other packages.
+Variable - A protected variable can be accessed within its own package and by subclasses in other packages.
+Significance - The protected modifier provides a more restricted access level compared to public, allowing access only within the same package and by inheritance.
+
+Default :
+Class - A class with no access modifier is package-private, meaning it is accessible only within its own package.
+Method - A method with no access modifier is package-private, accessible only within its own package.
+Variable - A variable with no access modifier is package-private, accessible only within its own package.
+Significance - The default access modifier provides package-level access, making it accessible only to other classes in the same package.
+
+Private :
+Class - Classes cannot be declared as private. Only inner classes can use the private modifier.
+Method - A private method can only be called within the same class in which it is declared.
+Variable - A private variable can only be accessed within the same class in which it is declared.
+Significance - The private modifier provides the most restricted access level, limiting access to the defining class only.

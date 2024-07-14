@@ -1,0 +1,11 @@
+Checked Exceptions :
+  * Checked exceptions are exceptions that are checked at compile-time. The compiler ensures that these exceptions are either caught or declared in the method signature using the throws keyword.
+  * Checked exceptions must be handled using a try-catch block or declared in the method signature to be thrown to the caller.
+  * They are typically used for conditions that a reasonable application might want to catch. They represent conditions that are outside the control of the program, such as file I/O errors.
+Examples: IOException, SQLException, ClassNotFoundException.
+
+Unchecked Exceptions :
+  * Unchecked exceptions are exceptions that are not checked at compile-time. They occur at runtime and are instances of RuntimeException or its subclasses.
+  * Unchecked exceptions do not need to be declared in a method's throws clause or explicitly handled in the code. They can be caught, but the compiler does not enforce this.
+  * They usually indicate programming errors, such as logic errors.
+Examples: NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException.

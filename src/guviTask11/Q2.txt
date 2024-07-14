@@ -1,0 +1,9 @@
+Exception :
+An Exception in Java represents a condition that a program should handle. It disrupts the normal flow of the program's instructions.
+Exceptions are generally caused by code within the program and are often recoverable.
+Ex : NullPointerException, ArrayIndexOutOfBoundsException, FileNotFoundException, etc.
+
+Error :
+An Error in Java represents a serious problem that a program should not try to handle. Errors are generally caused by external factors or the environment in which the program is running.
+Errors are typically unrecoverable and indicate problems that are not caused by the program itself but by the system or its configuration.
+Ex : OutOfMemoryError, StackOverflowError, VirtualMachineError, etc.
