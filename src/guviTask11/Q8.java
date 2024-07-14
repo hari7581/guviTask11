@@ -26,4 +26,4 @@ public class Q8 {
 }
 
 // Output :
-//	File not found: java.io.FileNotFoundException: input.txt (The system cannot find the file specified)
+//	File not found: java.io.FileNotFoundException: hari.txt (The system cannot find the file specified)
