@@ -7,8 +7,9 @@ public class Q6 {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
+		// Set the correct password
 		String correctPassword = "Hari7581";
-
+		// user to enter the password
 		System.out.print("Enter the password: ");
 		String inputPassword = scanner.nextLine();
 
@@ -16,6 +17,7 @@ public class Q6 {
 			validatePassword(inputPassword, correctPassword);
 			System.out.println("Login successful!");
 		} catch (IncorrectPasswordException e) {
+			// Catch the custom exception
 			System.out.println("Incorrect password. Please try again.");
 		}
 		scanner.close();

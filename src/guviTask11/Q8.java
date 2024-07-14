@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Q8 {
 
 	public static void main(String[] args) {
-		File fn = new File("input.txt"); 
+		File fn = new File("hari.txt"); 
 
         try {
             Scanner scanner = new Scanner(fn);
